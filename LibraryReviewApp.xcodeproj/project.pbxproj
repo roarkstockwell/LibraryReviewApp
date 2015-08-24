@@ -14,6 +14,11 @@
 		F8E67C671B8B878800A55DCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E67C661B8B878800A55DCB /* Images.xcassets */; };
 		F8E67C6A1B8B878800A55DCB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8E67C681B8B878800A55DCB /* LaunchScreen.xib */; };
 		F8E67C761B8B878800A55DCB /* LibraryReviewAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E67C751B8B878800A55DCB /* LibraryReviewAppTests.m */; };
+		F8E67C811B8B8A8000A55DCB /* AllBooksListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E67C801B8B8A8000A55DCB /* AllBooksListViewController.m */; };
+		F8E67C841B8B8A9500A55DCB /* BookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E67C831B8B8A9500A55DCB /* BookDetailViewController.m */; };
+		F8E67C871B8B8AC300A55DCB /* BookSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E67C861B8B8AC300A55DCB /* BookSwitchTableViewCell.m */; };
+		F8E67C8A1B8B8D9300A55DCB /* AllBooksTabelViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E67C891B8B8D9300A55DCB /* AllBooksTabelViewDataSource.m */; };
+		F8E67C8D1B8B8E1100A55DCB /* EditBooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E67C8C1B8B8E1100A55DCB /* EditBooksViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,16 @@
 		F8E67C6F1B8B878800A55DCB /* LibraryReviewAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibraryReviewAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E67C741B8B878800A55DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8E67C751B8B878800A55DCB /* LibraryReviewAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryReviewAppTests.m; sourceTree = "<group>"; };
+		F8E67C7F1B8B8A8000A55DCB /* AllBooksListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllBooksListViewController.h; sourceTree = "<group>"; };
+		F8E67C801B8B8A8000A55DCB /* AllBooksListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllBooksListViewController.m; sourceTree = "<group>"; };
+		F8E67C821B8B8A9500A55DCB /* BookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDetailViewController.h; sourceTree = "<group>"; };
+		F8E67C831B8B8A9500A55DCB /* BookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDetailViewController.m; sourceTree = "<group>"; };
+		F8E67C851B8B8AC300A55DCB /* BookSwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookSwitchTableViewCell.h; sourceTree = "<group>"; };
+		F8E67C861B8B8AC300A55DCB /* BookSwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookSwitchTableViewCell.m; sourceTree = "<group>"; };
+		F8E67C881B8B8D9300A55DCB /* AllBooksTabelViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllBooksTabelViewDataSource.h; sourceTree = "<group>"; };
+		F8E67C891B8B8D9300A55DCB /* AllBooksTabelViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllBooksTabelViewDataSource.m; sourceTree = "<group>"; };
+		F8E67C8B1B8B8E1100A55DCB /* EditBooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditBooksViewController.h; sourceTree = "<group>"; };
+		F8E67C8C1B8B8E1100A55DCB /* EditBooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditBooksViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +101,16 @@
 				F8E67C601B8B878800A55DCB /* ViewController.h */,
 				F8E67C611B8B878800A55DCB /* ViewController.m */,
 				F8E67C631B8B878800A55DCB /* Main.storyboard */,
+				F8E67C8B1B8B8E1100A55DCB /* EditBooksViewController.h */,
+				F8E67C8C1B8B8E1100A55DCB /* EditBooksViewController.m */,
+				F8E67C881B8B8D9300A55DCB /* AllBooksTabelViewDataSource.h */,
+				F8E67C891B8B8D9300A55DCB /* AllBooksTabelViewDataSource.m */,
+				F8E67C7F1B8B8A8000A55DCB /* AllBooksListViewController.h */,
+				F8E67C801B8B8A8000A55DCB /* AllBooksListViewController.m */,
+				F8E67C821B8B8A9500A55DCB /* BookDetailViewController.h */,
+				F8E67C831B8B8A9500A55DCB /* BookDetailViewController.m */,
+				F8E67C851B8B8AC300A55DCB /* BookSwitchTableViewCell.h */,
+				F8E67C861B8B8AC300A55DCB /* BookSwitchTableViewCell.m */,
 				F8E67C661B8B878800A55DCB /* Images.xcassets */,
 				F8E67C681B8B878800A55DCB /* LaunchScreen.xib */,
 				F8E67C591B8B878800A55DCB /* Supporting Files */,
@@ -219,9 +244,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8E67C8A1B8B8D9300A55DCB /* AllBooksTabelViewDataSource.m in Sources */,
 				F8E67C621B8B878800A55DCB /* ViewController.m in Sources */,
+				F8E67C841B8B8A9500A55DCB /* BookDetailViewController.m in Sources */,
+				F8E67C811B8B8A8000A55DCB /* AllBooksListViewController.m in Sources */,
 				F8E67C5F1B8B878800A55DCB /* AppDelegate.m in Sources */,
+				F8E67C871B8B8AC300A55DCB /* BookSwitchTableViewCell.m in Sources */,
 				F8E67C5C1B8B878800A55DCB /* main.m in Sources */,
+				F8E67C8D1B8B8E1100A55DCB /* EditBooksViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
